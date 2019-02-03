@@ -4,7 +4,7 @@ Send AWS Cloudwatch Alarm to Slack using AWS Lambda.
 # Configurations
 
 ## → Lambda Configs
-Clone the repository,go to repository folder and use following commands to create lambda package:
+Clone the repository, go to repository folder and use following commands to create lambda package:
 ```
 pip install requests -t ./
 chmod -R 755 .
