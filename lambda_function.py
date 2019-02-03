@@ -50,6 +50,8 @@ def prepare_message(record):
 def lambda_handler(event, context):
     try:
         print("event received", json.dumps(event))
+
+        # looping through events array of objects
         for single_event in event["Records"]:
             prepare_message(single_event)
     except Exception as e:
