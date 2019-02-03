@@ -1,6 +1,8 @@
 # :package: Cloudwatch-alarm-to-slack-python
 Send AWS Cloudwatch Alarm to Slack using AWS Lambda.
 
+Note: If you want solution in node runtime. You may check this solution: https://github.com/widdix/cloudwatch-alarm-to-slack
+
 # Configurations
 
 ## → Lambda Configs
@@ -25,3 +27,6 @@ Note: We have do this because we're using 3rd party package "requests" which doe
 2. Go to slack workspace settings and setup incoming webhook.
 3. Select the channel created in first step for incoming webhook.
 4. And boom, you should start receiving your alarm notifications on slack channel.
+
+# License
+Licensed Under GPL 2.0.
