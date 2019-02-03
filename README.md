@@ -23,5 +23,5 @@ Note: We have do this because we're using 3rd party package "requests" which doe
 ## → Slack Configs
 1. Create slack channel.
 2. Go to slack workspace settings and setup incoming webhook.
-3. Select the channel created in first step of incoming webhook.
+3. Select the channel created in first step for incoming webhook.
 4. And boom, you should start receiving your alarm notifications on slack channel.
